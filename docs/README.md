@@ -1,16 +1,46 @@
-# Chess Game Documentation
+# 📚 Chess Game Documentation
+
+```
+    ╔═══════════════════════════════════════════════════════╗
+    ║                                                       ║
+    ║        Comprehensive Documentation                    ║
+    ║                                                       ║
+    ╚═══════════════════════════════════════════════════════╝
+```
 
 Welcome to the comprehensive documentation for the Chess Game application.
 
-## Documentation Index
+## 📑 Documentation Index
 
-1. [Architecture Overview](./architecture.md) - System architecture and component design
-2. [API Documentation](./api.md) - WebSocket API and message protocols
-3. [Game Flow](./game-flow.md) - Game state management and turn logic
-4. [AI Algorithm](./ai-algorithm.md) - AI player implementation and algorithms
-5. [Chess Engine](./chess-engine.md) - Move validation and game rules
-6. [Installation Guide](./installation.md) - Setup and deployment instructions
-7. [Development Guide](./development.md) - Contributing and extending the codebase
+```
+    ┌─────────────────────────────────────────────────────┐
+    │                                                     │
+    │  1. 📖 [About](./about.md)                          │
+    │     Project vision, architecture philosophy, stats  │
+    │                                                     │
+    │  2. 🏗️  [Architecture](./architecture.md)           │
+    │     System architecture and component design       │
+    │                                                     │
+    │  3. 🔌 [API Documentation](./api.md)                │
+    │     WebSocket API and message protocols            │
+    │                                                     │
+    │  4. 🎯 [Game Flow](./game-flow.md)                  │
+    │     Game state management and turn logic           │
+    │                                                     │
+    │  5. 🧠 [AI Algorithm](./ai-algorithm.md)             │
+    │     AI player implementation and algorithms        │
+    │                                                     │
+    │  6. ♟️  [Chess Engine](./chess-engine.md)           │
+    │     Move validation and game rules                 │
+    │                                                     │
+    │  7. 🚀 [Installation Guide](./installation.md)      │
+    │     Setup and deployment instructions              │
+    │                                                     │
+    │  8. 💻 [Development Guide](./development.md)        │
+    │     Contributing and extending the codebase        │
+    │                                                     │
+    └─────────────────────────────────────────────────────┘
+```
 
 ## Quick Start
 
