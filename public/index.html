@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>♔ Chess Game ♔</h1>
+            <div class="game-controls">
+                <button id="createGameBtn" class="btn btn-primary">Create Game</button>
+                <button id="joinGameBtn" class="btn btn-secondary">Join Game</button>
+                <div class="ai-controls">
+                    <span>Play with AI:</span>
+                    <select id="aiLevel">
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                    <button id="playAIWhiteBtn" class="btn btn-ai">Play as White</button>
+                    <button id="playAIBlackBtn" class="btn btn-ai">Play as Black</button>
+                </div>
+            </div>
+            <div id="gameInfo" class="game-info"></div>
+        </div>
+
+        <div class="game-container">
+            <div class="board-container">
+                <div id="chessboard" class="chessboard"></div>
+                <div id="promotionModal" class="promotion-modal hidden">
+                    <div class="promotion-options">
+                        <div class="promotion-title">Choose promotion:</div>
+                        <div class="promotion-pieces">
+                            <div class="promotion-piece" data-piece="queen">♕</div>
+                            <div class="promotion-piece" data-piece="rook">♖</div>
+                            <div class="promotion-piece" data-piece="bishop">♗</div>
+                            <div class="promotion-piece" data-piece="knight">♘</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="status-panel">
+                    <h3>Game Status</h3>
+                    <div id="statusText" class="status-text">Waiting to start...</div>
+                    <div id="turnIndicator" class="turn-indicator"></div>
+                </div>
+                <div class="move-history">
+                    <h3>Move History</h3>
+                    <div id="moveHistory" class="move-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="joinModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Join Game</h2>
+            <input type="text" id="gameIdInput" placeholder="Enter Game ID">
+            <button id="joinGameConfirmBtn" class="btn btn-primary">Join</button>
+        </div>
+    </div>
+
+    <script src="pieces.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
